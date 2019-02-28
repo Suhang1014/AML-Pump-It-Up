@@ -83,13 +83,13 @@ The reason of removing:
 - `extraction_type, extraction_type_group, management, payment, quality_group, quantity_group, source, source_type, waterpoint_type`: redundant
 
 ### 3. Explore the data "one by one" and transform them into categorial data
-- `status_group`: Most of the wells are functional, only a little need repair, the quatity of non-functional wells is not small.
+- `status_group`: Most of the wells are functional, only a little need repair, the quantity of non-functional wells is not small.
 - `longitude, latitude`: Missing value. Drop these two columns.
 - `date_recorded`: Transform it into `days_since_recorded`.
 - `funder`: Remain top 5 + other.
 - `installer`: Remain top 5 + other.
-- `gps_height`: Temporially remain.
-- `wpt_name`: No predictive pover, remove.
+- `gps_height`: Temporally remain.
+- `wpt_name`: No predictive power, remove.
 - `num_private`: Do not know the meaning of it, remove.
 - `status_group`: No missing values, 9 categories.
 - `subvillage`: No dominant values, remove
@@ -104,10 +104,10 @@ The reason of removing:
 -  `construction_year`:`'60s','70s','80s','90s','00s','10s','unknown'`
 - `extraction_type_class`: No missing value.7 categories.
 - `management_group`: Very skewed data.***How?***
-- `payment_type`: 7 categories. 8157 unknow.
-- `water_quality`: 8 categories. 1876 unknow. 
-- `quantity`: 5 categories. 789 unknow.
-- `source_class`: 3 categories. 278 unknow.
+- `payment_type`: 7 categories. 8157 unknown.
+- `water_quality`: 8 categories. 1876 unknown. 
+- `quantity`: 5 categories. 789 unknown.
+- `source_class`: 3 categories. 278 unknown.
 - `waterpoint_type_group`: 6 categories.
 
 ### 4. Final result
