@@ -118,3 +118,27 @@ The reason of removing:
     - How to transform skewed data like `population`, `amount_tsh` and `management_group`
     - Can `gps_height` provide predictive power?
 
+### 5.Process(Flow Path)
+1. Data cleaning:
+2. Feature selection:
+  - a)  PCA
+  - b)  Random Forest
+3. Algorithm:
+- a)  Need to fulfill the missing data
+  -  SVM
+  -  NN
+- b)  No Need to fulfill the missing data
+  - RF
+  - Xgboost
+
+4. Result for Algorithm
+
+name | accuracy |F1 |... |
+---- | --- | ---|---
+Model1 | ...|...|... 
+Model2 |  ...|...|...
+... |  ...|...|... 
+
+
+
+
