@@ -133,7 +133,7 @@ The reason of removing:
 
 4. Result for Algorithm
 
-name | accuracy |F1 |... |
+Name | Accuracy |F1 |... |
 ---- | --- | ---|---
 Model1 | ...|...|... 
 Model2 |  ...|...|...
