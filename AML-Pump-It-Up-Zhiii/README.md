@@ -115,14 +115,15 @@ The reason of removing:
 
     `df_test`: 14850 * 20
 2. Unresolved problems:
-    - How to transform skewed data like `population`, `amount_tsh` and `management_group`
+    - How to transform skewed data like `population`
     - Can `gps_height` provide predictive power?
 
 ### 5.review and modify part
-1. combine construction year and date_recorded
+1. combine construction year and date_recorded(complete)
 
-2. not only keep top 5 funder and installer(after look at the details, just select top 5 is unreasonable)
+2. not only keep top 5 funder and installer(after look at the details, just select top 5 is unreasonable)(complete)
 
-3. not remove subvillage(maybe little difference in location will bring something different in the target,maybe!! so not delete)
+3. remove subvillage(location feature) and only keep longtitude and latitude(complete)
 4. NA are totally substitued by unknown
-5. compare 'quantity' with 'amount_tsh', get some results. it seems there are some relationship between them. At the same time, it seems there are no relationship(need more dig)
+5. compare 'quantity' with 'amount_tsh'(complete) and then keep quantity.
+Complete all the contents from last meeting
