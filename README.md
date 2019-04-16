@@ -83,7 +83,7 @@ The reason of removing:
 - `extraction_type, extraction_type_group, management, payment, quality_group, quantity_group, source, source_type, waterpoint_type`: redundant
 
 ### 3. Explore the data "one by one" and transform them into categorial data
-- `status_group`: Most of the wells are functional, only a little need repair, the quantity of non-functional wells is not small.
+- `staus_group`: Most of the wells are functional, only a little need repair, the quantity of non-functional wells is not small.
 - `longitude, latitude`: Missing value. Drop these two columns.
 - `date_recorded`: Transform it into `days_since_recorded`.
 - `funder`: Remain top 5 + other.
@@ -91,7 +91,7 @@ The reason of removing:
 - `gps_height`: Temporally remain.
 - `wpt_name`: No predictive power, remove.
 - `num_private`: Do not know the meaning of it, remove.
-- `status_group`: No missing values, 9 categories.
+- `satus_group`: No missing values, 9 categories.
 - `subvillage`: No dominant values, remove
 - `region`: No missing value, 21 categories, keep.
 - `region_code, district_code`: We already had region that represents the geographical information. Remove this feature.
@@ -101,7 +101,7 @@ The reason of removing:
 - `recorded_by`: All the value in this columns are the same, drop it.
 - `scheme_management`: Keep top 5 + other
 - `permit`: Replace NA by `unknown`
--  `construction_year`:`'60s','70s','80s','90s','00s','10s','unknown'`
+- `construction_year`:`'60s','70s','80s','90s','00s','10s','unknown'`
 - `extraction_type_class`: No missing value.7 categories.
 - `management_group`: Very skewed data.***How?***
 - `payment_type`: 7 categories. 8157 unknown.
